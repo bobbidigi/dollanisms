@@ -63,7 +63,9 @@ function randomImage() {
 function slap() {
     var hand = document.getElementById("hand");
     var el = document.getElementById("random-image-container");
+    var sound = document.getElementById("slicesound");
     hand.className = " shrink";
+     sound.play();//play sound
 //    el.classList(" animated bounceIn"); 
     window.setTimeout( function(){
     hand.className = " animated bounceIn";   
