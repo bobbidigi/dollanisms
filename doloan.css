@@ -44,6 +44,9 @@ p {
     margin: 0 auto;
     
 }
+.btn-toolbar{
+ margin-top: -1em;   
+}
 #random-image-container {
     width: 100%;
     height: 200px;
@@ -105,8 +108,15 @@ hr{
 /*            margin: 0 1em;*/
             text-align: center;
         }
+    .quotes{
+        max-width: 90%;
+        margin-top: 1em;
+    }
     footer .footer-below{
      background: #009688;
+}
+    .btn-toolbar{
+ margin-top: -1.5em;   
 }
 }
         
@@ -116,8 +126,12 @@ hr{
         background-size: 80% 100%;
     }
     .quotes{
+        width: 80%;
         margin-top: 1em;
     }
+    .btn-toolbar{
+ margin-top: -2em;   
+}
 }
         
         #quote {
