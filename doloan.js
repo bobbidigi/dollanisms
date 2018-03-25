@@ -61,14 +61,17 @@ function randomImage() {
 
 
 function slap() {
-    var hand = document.getElementById("hand");
-    var el = document.getElementById("random-image-container");
-    var sound = document.getElementById("slicesound");
-    hand.className = " shrink";
-     sound.play();//play sound
+  var hand = document.getElementById("hand");
+  var el = document.getElementById("random-image-container");
+  var punch = document.getElementById("slicesound");
+//  var ouch = document.getElementById("ouch");
+  hand.className = " shrink";
+  punch.play();//play sound
+  
 //    el.classList(" animated bounceIn"); 
-    window.setTimeout( function(){
-    hand.className = " animated bounceIn";   
+  window.setTimeout( function(){
+  ouch.play();//ouch      
+  hand.className = " animated bounceIn";   
             }, 700);         
 }
 
