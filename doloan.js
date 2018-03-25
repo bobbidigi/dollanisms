@@ -4,6 +4,7 @@ var quotes = [
 ];
 
 function randomImage() {
+    var hand = document.getElementById("hand");
     var el = document.getElementById("random-image-container");
     var randomNumber = Math.floor((Math.random() * 16) + 1);
     if (randomNumber == 1) {
@@ -55,13 +56,23 @@ function randomImage() {
     if (randomNumber == 16) {
         el.className = "random-image-16";
     }
+    hand.className = " hide";
 }
 
 
-
+function slap() {
+    var hand = document.getElementById("hand");
+    var el = document.getElementById("random-image-container");
+    hand.className = " shrink";
+//    el.classList(" animated bounceIn"); 
+    window.setTimeout( function(){
+    hand.className = " animated bounceIn";   
+            }, 700);         
+}
 
 
 function genQuote() {
     var randomQuote = Math.floor(Math.random() * quotes.length);
+    
     document.getElementById('quote').innerHTML = quotes[randomQuote];
 }

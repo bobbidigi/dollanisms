@@ -12,6 +12,7 @@
     <meta property="og:author" content="Wix4Life" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="doloan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="doloan.js"></script>
@@ -29,11 +30,18 @@
        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group mr-12" role="group" aria-label="First group">
             <button type="submit" class="btn dism" onClick="genQuote() , randomImage() ">Dollan-ism</button>
-            <button type="button" class="btn slap">Slap-Dollan</button>
+            <button id="slap-btn" class="buttonProps blue btn slap" onclick="slap()">Slap-Dollan</button>
           </div>
         </div>
         
+         
+         
+        
+        
         <div id="random-image-container" class="collapse">
+             <div id="hand"  class="animated ">
+                  <img  src="img/Hand-Emoji-PNG-Photo.png" alt="hand">
+            </div>
         </div>
         <div class=" well quotes">
             <span id="quote">Get Free Dollanisms. </span>
