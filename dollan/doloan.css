@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 .hero {
-    background-image: url('/img/bg.png');
+    background-image: url('../img/bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -163,67 +163,67 @@ hr{
         }
         
         .random-image-01 {
-            background-image: url('/img/D1.png');
+            background-image: url('../img/D1.png');
             
         }
         
         .random-image-02 {
-            background-image: url('/img/D2.png');
+            background-image: url('../img/D2.png');
         }
         
         .random-image-03 {
-            background-image: url('/img/D3.png');
+            background-image: url('../img/D3.png');
         }
         
         .random-image-04 {
-            background-image: url('/img/D4.png');
+            background-image: url('../img/D4.png');
         }
         
         .random-image-05 {
-            background-image: url('/img/D5.png');
+            background-image: url('../img/D5.png');
         }
         
         .random-image-06 {
-            background-image: url('/img/D6.png');
+            background-image: url('../img/D6.png');
         }
         
         .random-image-07 {
-            background-image: url('/img/D7.png');
+            background-image: url('../img/D7.png');
         }
         
         .random-image-08 {
-            background-image: url('/img/D8.png');
+            background-image: url('../img/D8.png');
         }
         
         .random-image-09 {
-            background-image: url('/img/D9.png');
+            background-image: url('../img/D9.png');
         }
         
         .random-image-10 {
-            background-image: url('/img/D10.png');
+            background-image: url('../img/D10.png');
         }
         
         .random-image-11 {
-            background-image: url('/img/D11.png');
+            background-image: url('../img/D11.png');
         }
         
         .random-image-12 {
-            background-image: url('/img/D12.png');
+            background-image: url('../img/D12.png');
         }
         
         .random-image-13 {
-            background-image: url('/img/D13.png');
+            background-image: url('../img/D13.png');
         }
         
         .random-image-14 {
-            background-image: url('/img/D14.png');
+            background-image: url('../img/D14.png');
         }
         
         .random-image-15 {
-            background-image: url('/img/D15.png');
+            background-image: url('../img/D15.png');
         }
         
         .random-image-16 {
-            background-image: url('/img/D16.png');
+            background-image: url('../img/D16.png');
         }
 
