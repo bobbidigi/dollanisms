@@ -24,6 +24,13 @@ body {
     color: darkorange;
     background: #009688;
 }
+.btn-secondary:hover{
+     transition: all .52s ;
+    transform: rotateX(360deg) scale(1.1);
+    background: #9C27B0;
+    color: coral;
+    border: 1px solid #E91E63;
+}
 .slideshow { 
   position: fixed;
   width: 100%;
